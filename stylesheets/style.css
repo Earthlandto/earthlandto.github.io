@@ -1,0 +1,40 @@
+.bg {
+    background-image: url("../images/explorer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 20rem;
+    background-position: 50% 0;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.header-container {
+background-color: white;
+    margin-top: 5rem;
+}
+
+.main-container{
+    padding-top: 20rem;
+}
+
+.data-container{
+    padding: 4rem;
+}
+
+.my-avatar{
+    max-width:60%;
+    margin-left: 150px;
+}
+
+.header-elems{
+    padding: 0px;
+    margin: 0px;
+}
